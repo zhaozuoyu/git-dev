@@ -6,6 +6,7 @@ public class Student {
     private String name;
     private Integer age;
     private String gender;
+    private String phone;
 
     public String getId() {
         return id;
@@ -37,5 +38,13 @@ public class Student {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }
