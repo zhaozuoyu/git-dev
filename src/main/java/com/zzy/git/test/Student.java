@@ -6,6 +6,7 @@ public class Student {
     private String name;
     private Integer age;
     private String gender;
+    private String address;
 
     public String getId() {
         return id;
@@ -37,5 +38,13 @@ public class Student {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
