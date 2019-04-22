@@ -4,6 +4,7 @@ public class Teacher {
 
     private String id;
     private String name;
+    private Integer age;
 
     public String getId() {
         return id;
@@ -19,5 +20,13 @@ public class Teacher {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
